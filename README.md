@@ -10,7 +10,7 @@
 | Field | Details |
 |---|---|
 | **Project Title** | RHoMIS Analysis |
-| **Sector** | Public Policy |
+| **Sector** | Agriculture / Rural Development |
 | **Team ID** | G-7 |
 | **Section** | C |
 | **Faculty Mentor** | TBA |
@@ -46,13 +46,18 @@ TBA
 
 ## Dataset
 
+> **Full title:** The Rural Household Multiple Indicator Survey (RHoMIS) data of 54,873 farm households in 35 countries
+
 | Attribute | Details |
 |---|---|
 | **Source Name** | RHoMIS (Rural Household Multi-Indicator Survey) |
-| **Direct Access Link** | [Harvard Dataverse — DOI: 10.7910/DVN/WS38SA](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FWS38SA) |
-| **Row Count** | 54,873 households |
+| **Published By** | Harvard Dataverse — Gorman, Hammond, Frelat, Caulfield et al. (76 contributors) |
+| **Direct Access Link** | [DOI: 10.7910/DVN/WS38SA](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FWS38SA) |
+| **Version** | Version 1 — January 30, 2025 |
+| **License** | CC0 1.0 (Public Domain) |
+| **Row Count** | 54,873 farm households |
 | **Column Count** | 1,599 raw survey variables |
-| **Countries Covered** | 35 |
+| **Countries Covered** | 35 across Latin America, Africa, and Asia |
 | **Time Period Covered** | 2015 – 2023 |
 | **Format** | CSV |
 
