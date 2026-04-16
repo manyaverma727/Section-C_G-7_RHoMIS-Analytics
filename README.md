@@ -10,7 +10,7 @@
 | Field | Details |
 |---|---|
 | **Project Title** | RHoMIS Analysis |
-| **Sector** | Agriculture / Rural Development |
+| **Sector** | Public Policy |
 | **Team ID** | G-7 |
 | **Section** | C |
 | **Faculty Mentor** | TBA |
