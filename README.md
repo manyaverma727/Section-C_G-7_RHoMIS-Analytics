@@ -46,7 +46,7 @@ TBA
 
 ## Dataset
 
-> **Full title:** The Rural Household Multiple Indicator Survey (RHoMIS) data of 54,873 farm households in 35 countries
+> **Full title:** The Rural Household Multi-Indicator Survey (RHoMIS) data of 54,873 farm households in 35 countries
 
 | Attribute | Details |
 |---|---|
