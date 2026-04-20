@@ -32,15 +32,15 @@
 
 ## Business Problem
 
-TBA
+Smallholder farming households across 35 countries face chronic food insecurity and low farm income. Which regions are most at risk, and what combination of farm size, crop diversity, land productivity, household demographics, and other factors drive these outcomes?
 
 **Core Business Question**
 
-> TBA
+> Which regions and farm profiles are most vulnerable to food insecurity and low income — and what factors drive these outcomes?
 
 **Decision Supported**
 
-> TBA
+> Farmers, policymakers, and development organisations can identify which regions and farm profiles are most vulnerable and decide whether to act on income support, crop diversification, land productivity improvements, or targeted food assistance programmes.
 
 ---
 
