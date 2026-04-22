@@ -20,13 +20,13 @@ This document summarizes the insights derived from the initial data extraction o
 `iso_country_code`, `country`, `region`, `respondentsex`, `age_malehead`, `age_femalehead`, `count_people`
 
 #### Land & Tenure
-`land_tenure`, `landcultivated`, `unitland`, `landowned`, `land_ownership`
+`land_tenure`, `landcultivated`, `unitland`, `land_ownership`
 
-#### Drops & Yields
-`crop_name_1`, `crop_harvest_1`, `crop_yield_1`, `crop_income_per_year_1`
+#### Crop Production
+`crop_count`, `crop_name_1` to `crop_name_5`, `crop_harvest_kg_per_year_1/2/3`, `crop_income_per_year_1/2/3`
 
 #### Food Security & Nutrition
 `hfias_1` to `hfias_9` (populated between 12-30%), `crop_consumed_prop_1`, `crop_calories_consumed_kcal_1`
 
 ### Next Steps 
-The next phase (`02_cleaning.ipynb`) must focus on stripping out the 1,400+ mostly empty columns, isolating the key indicators, handling missing data logically, and standardizing units (e.g., converting local land size units to standard Hectares).
+The next phase (`02_cleaning.ipynb`) must focus on stripping out the 1,400+ mostly empty columns, isolating the 60 key indicators across 7 domains (including Gender & Resource Control), handling missing data logically, and standardizing units (e.g., converting local land size units to standard Hectares). No KPIs will be computed in cleaning — those belong in analysis notebooks 03/04.
