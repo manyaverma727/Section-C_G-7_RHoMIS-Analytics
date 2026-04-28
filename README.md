@@ -186,11 +186,11 @@ Section-C_G-7_RHoMIS-Analytics/
 │       └── rhomis_tableau_ready.csv      # 54,873 rows × 46 columns (Tableau export)
 │
 ├── notebooks/
-│   ├── 01_extraction.ipynb               # ✅ Load, validate, select columns
-│   ├── 02_cleaning.ipynb                 # ✅ Structural cleaning — mirrors ETL
-│   ├── 03_eda.ipynb                      # ✅ Distribution, drivers, gender analysis
-│   ├── 04_statistical_analysis.ipynb     # ✅ Regression, chi-square, k-means
-│   └── 05_final_load_prep.ipynb          # ✅ KPI derivation, Tableau CSV export
+│   ├── 01_extraction.ipynb               # Load, validate, select columns
+│   ├── 02_cleaning.ipynb                 # Structural cleaning — mirrors ETL
+│   ├── 03_eda.ipynb                      # Distribution, drivers, gender analysis
+│   ├── 04_statistical_analysis.ipynb     # Regression, chi-square, k-means
+│   └── 05_final_load_prep.ipynb          # KPI derivation, Tableau CSV export
 │
 ├── scripts/
 │   └── etl_pipeline.py                   # Canonical ETL implementation (source of truth)
@@ -198,7 +198,6 @@ Section-C_G-7_RHoMIS-Analytics/
 ├── tableau/
 │   ├── RHoMIS DASHBOARD - DVA CAPSTONE.twbx  # Tableau workbook
 │   ├── dashboard_links.md                     # Tableau Public URLs
-│   ├── chart_refinement_notes.md
 │   └── screenshots/                           # All 4 dashboard views
 │
 ├── reports/
