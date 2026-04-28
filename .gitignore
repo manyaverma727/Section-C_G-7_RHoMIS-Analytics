@@ -39,3 +39,11 @@ build/
 
 # Tableau workbooks (committed manually)
 # tableau/*.twbx
+
+# Tool artifacts
+excalidraw.log
+*.twbr
+
+# Internal working notes (belong in .ai-workflow, not repo)
+tableau/chart_refinement_notes.md
+tableau/dashboard_fixes.md
