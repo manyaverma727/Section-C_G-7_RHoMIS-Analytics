@@ -60,8 +60,8 @@
 
 % ─── Graphics ────────────────────────────────────────────────────
 \usepackage{graphicx}
-% Image source: .ai-workflow/images/ (gitignored local assets)
-\graphicspath{{../.ai-workflow/images/}{./}}
+% Image source: tableau/screenshots/ (committed PNGs)
+\graphicspath{{../tableau/screenshots/}{../.ai-workflow/images/}{./}}
 
 % ─── Section formatting ──────────────────────────────────────────
 \usepackage{titlesec}
@@ -209,8 +209,8 @@ Median duration: 3 months}
 \begin{minipage}[t]{0.475\linewidth}
 \begin{kpibox}
 {\footnotesize\bfseries\color{rhoGray}IRRIGATION ACCESS GAP}\\[5pt]
-{\fontsize{26}{30}\selectfont\bfseries\color{rhoRed}17.4pp}\\[4pt]
-{\small\color{rhoCharcoal}Rainfed 72.4\% vs.\ irrigated 55.1\%\\
+{\fontsize{26}{30}\selectfont\bfseries\color{rhoRed}16.3pp}\\[4pt]
+{\small\color{rhoCharcoal}Rainfed 71.5\% vs.\ irrigated 55.2\%\\
 Only 20.2\% of farms irrigated}
 \end{kpibox}
 \end{minipage}
@@ -244,7 +244,7 @@ food shortage rate difference}
 \textbf{Key Findings.}
 \begin{itemize}
   \item Two in three surveyed households reported food shortage — confirming this is the structural norm, not an exception.
-  \item Irrigation access creates a 17.4pp gap in food shortage rates; only 20.2\% of households have it.
+  \item Irrigation access creates a 16.3pp gap in food shortage rates; only 20.2\% of households have it.
   \item Land productivity quartile gap (29.1pp) and income quintile gap (19.8pp) identify the structural roots of vulnerability.
   \item Low education and large household size compound every other risk factor.
 \end{itemize}
@@ -363,7 +363,7 @@ Seven KPIs form the backbone of the dashboard. Each is interpretable without sta
   Food-Shortage HH Count   & 32,097    & Count(\texttt{food\_shortage\_flag} $= 1$) & Translates the rate into a countable population. \\
   \rowcolor{rhoRow}
   Median Months Shortage   & 3.0 mo    & median(\texttt{foodshortagetime}) & Severity indicator — seasonal lean-period risk. \\
-  Irrigation Access Rate   & 20.2\%    & $\frac{\text{irrigated\_flag} = 1}{\text{total HH}}$ & Linked to 17.4pp food shortage advantage on D3. \\
+  Irrigation Access Rate   & 20.2\%    & $\frac{\text{irrigated\_flag} = 1}{\text{total HH}}$ & Linked to 16.3pp food shortage advantage on D3. \\
   \rowcolor{rhoRow}
   Median Land Productivity & 600 kg/ha & median(\texttt{land\_productivity\_kg\_per\_ha}) & Farm performance baseline. Quartiles segment risk. \\
   Median Income per MAE    & \$112 PPP & {\footnotesize median(\texttt{income\_ppp\_per\_mae})} & Welfare baseline, PPP-normalised cross-country. \\
@@ -385,7 +385,7 @@ Of 47,399 households with valid responses, 67.7\% reported food shortage in the 
 
 \subsection{Structural Drivers}
 
-\textit{Irrigation} creates the clearest outcome gap: irrigated households face a 55.1\% shortage rate vs.\ 72.4\% for rainfed — a 17.4pp difference — yet only 20.2\% of households have access. \textit{Land productivity} shows the widest spread: Q1 households face 83\% shortage vs.\ 54\% for Q4, a 29.1pp gap. \textit{Income position} contributes a 19.8pp gap between the bottom and top income quintiles within each country. \textit{Crop diversity} shows a positive correlation with food security in EDA but weakens significantly after controlling for income — suggesting the effect is largely mediated by household wealth.
+\textit{Irrigation} creates the clearest outcome gap: irrigated households face a 55.2\% shortage rate vs.\ 71.5\% for rainfed — a 16.3pp difference — yet only 20.2\% of households have access. \textit{Land productivity} shows the widest spread: Q1 households face 83\% shortage vs.\ 54\% for Q4, a 29.1pp gap. \textit{Income position} contributes a 19.8pp gap between the bottom and top income quintiles within each country. \textit{Crop diversity} shows a positive correlation with food security in EDA but weakens significantly after controlling for income — suggesting the effect is largely mediated by household wealth.
 
 \subsection{Food Security Instrument Validation}
 
@@ -482,22 +482,22 @@ All dashboards include Country and Vulnerability Profile filters. D1 additionall
 
 \subsection{Screenshots}
 
-\noindent\includegraphics[width=\linewidth]{d1_risk_overview.jpg}
+\noindent\includegraphics[width=\linewidth]{Risk-Overview.png}
 \captionof{figure}{D1 — Risk Overview: choropleth map, food shortage rate by country, and median months of shortage.}
 
 \vspace{8pt}
 
-\noindent\includegraphics[width=\linewidth]{d2_vulnerability_profiles.jpg}
+\noindent\includegraphics[width=\linewidth]{Vulnerability-Profiles.png}
 \captionof{figure}{D2 — Vulnerability Profiles: food shortage rate by profile and country, profile distribution, and demographic indicator heatmap.}
 
 \clearpage
 
-\noindent\includegraphics[width=\linewidth]{d3_structural_drivers.jpg}
+\noindent\includegraphics[width=\linewidth]{Structural-Drivers.png}
 \captionof{figure}{D3 — Structural Drivers: productivity quartile by irrigation type, crop diversity bar, and land productivity scatter by country.}
 
 \vspace{8pt}
 
-\noindent\includegraphics[width=\linewidth]{d4_income_position.jpg}
+\noindent\includegraphics[width=\linewidth]{Income-Position.png}
 \captionof{figure}{D4 — Income Position: income rank vs.\ food shortage scatter, off-farm income comparison by profile, and income quintile distribution by country.}
 
 \noindent\textbf{Tableau Public URL:}\\[2pt]
@@ -512,7 +512,7 @@ All dashboards include Country and Vulnerability Profile filters. D1 additionall
 
   \item \textbf{Food insecurity is the structural norm, not the exception.} A 67.7\% global rate means that programmes designed on the assumption that most farms are food-secure will miss their target population entirely.
 
-  \item \textbf{Irrigation offers the largest addressable gap.} A 17.4pp food shortage difference against 20.2\% coverage means infrastructure investment has both a large effect size and a large addressable population.
+  \item \textbf{Irrigation offers the largest addressable gap.} A 16.3pp food shortage difference against 20.2\% coverage means infrastructure investment has both a large effect size and a large addressable population.
 
   \item \textbf{Land productivity is the deepest structural divide.} The 29.1pp gap between Q1 and Q4 productivity quartiles is an independent risk factor — not a proxy for country poverty or income.
 
@@ -543,7 +543,7 @@ All dashboards include Country and Vulnerability Profile filters. D1 additionall
 
 \begin{findingbox}
 \textbf{Rec 1 — Irrigation expansion in the low-income rainfed cluster}\\[4pt]
-\textit{Insight:} 17.4pp food shortage gap between irrigated and rainfed; only 0.3\% irrigation in the highest-risk cluster (14,330 HH, 78.7\% shortage).\\[3pt]
+\textit{Insight:} 16.3pp food shortage gap between irrigated and rainfed; only 0.3\% irrigation in the highest-risk cluster (14,330 HH, 78.7\% shortage).\\[3pt]
 \textit{Action:} Prioritise small-scale and drip irrigation in DRC, Rwanda, Comoros, and Malawi — starting with the low-income rainfed cluster.\\[3pt]
 \textit{Impact:} Estimated 2,300 households per 1,000 reached exit acute food insecurity if coverage moves from 0.3\% to 20\%.\\[3pt]
 \textit{Feasibility:} Requires water-source audits and infrastructure capital. Timeline: 12--36 months.
@@ -577,7 +577,7 @@ All dashboards include Country and Vulnerability Profile filters. D1 additionall
 \begin{tabularx}{\linewidth}{@{}p{3.4cm} p{3.0cm} p{2.4cm} L@{}}
   \tH{Intervention} & \tH{Target Population} & \tH{Estimated Effect} & \tH{HH Exiting Insecurity (per 1,000 reached)} \\
   \rowcolor{rhoRow}
-  Irrigation expansion  & 14,330 rainfed cluster  & $-17.4$pp   & $\approx$2,300 \\
+  Irrigation expansion  & 14,330 rainfed cluster  & $-16.3$pp   & $\approx$2,300 \\
   Productivity support  & 24,000 Q1+Q2 farms      & $-10$--15pp & $\approx$1,200--1,800 \\
   \rowcolor{rhoRow}
   Income + education    & 10,200 bottom quintile  & $-4$--8pp   & $\approx$400--800 \\
@@ -648,7 +648,7 @@ Full column-by-column reference for all 46 fields in \texttt{rhomis\_tableau\_re
   Rajat Srivastav    & $\checkmark$ & $\checkmark$ &              &              &              &              & \\
   \rowcolor{rhoRow}
   Rajdeep Sanyal     & $\checkmark$ &              &              &              & $\checkmark$ &              & \\
-  Sankalp            & $\checkmark$ &              &              & $\checkmark$ &              &              & \\
+  Sankalp            & $\checkmark$ &              &              & $\checkmark$ & $\checkmark$ &              & \\
   \bottomrule
 \end{tabularx}}
 

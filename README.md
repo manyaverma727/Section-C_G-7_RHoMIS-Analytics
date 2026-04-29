@@ -258,7 +258,7 @@ Section-C_G-7_RHoMIS-Analytics/
 | Manya Verma | ✓ | ✓ | | | | | |
 | Rajat Srivastav | ✓ | ✓ | | | | | |
 | Rajdeep Sanyal | ✓ | | | | ✓ | | |
-| Sankalp | ✓ | | | ✓ | | | |
+| Sankalp | ✓ | | | ✓ | ✓ | | |
 
 _Declaration: We confirm that the above contribution details are accurate and verifiable through GitHub Insights, PR history, and submitted artifacts._
 
