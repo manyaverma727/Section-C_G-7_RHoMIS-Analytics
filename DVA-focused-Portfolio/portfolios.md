@@ -3,7 +3,7 @@
 | Name | Portfolio |
 |---|---|
 | Mahir Abdullah | [m01-dva.vercel.app](https://m01-dva.vercel.app/) |
-| Manas Vivek Saxena | |
+| Manas Vivek Saxena | [manasdva.netlify.app](https://manasdva.netlify.app/) |
 | Manya Verma | |
 | Rajat Srivastav | |
 | Rajdeep Sanyal | |
